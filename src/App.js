@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Menu />
+        <Menu /> {/* Acá tengo un problema con el menú de hamburguesa, lo trate de hacer desde 0 y no me sigue apareciendo la imágen de hamburguesa, no sé qué puede ser lo que está fallando*/}
         <Routes>
           <Route path="/" element={<Inicio />}> </Route>
           <Route path="/estudios" element={<Botones />}>  </Route>
