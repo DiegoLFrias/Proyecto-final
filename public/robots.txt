@@ -1,0 +1,63 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+import Carousel from 'react-bootstrap/Carousel';
+import React from 'react'
+import '../App.css'
+function UncontrolledExample() {
+  return (
+    <Carousel>
+      <Carousel.Item>
+        <img className="Carrusel"
+         
+          src="https://img.freepik.com/fotos-premium/textura-lisa-tela-blanca_293060-1827.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="Carrusel"
+          
+          src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/CNTWUAMXZRF3BPIYPCNPFHOMJQ.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="Carrusel"
+  
+          src="https://media.vandal.net/i/1200x630/1-2022/20221279492820_1.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="Carrusel"
+          
+          src="https://rocketleague.media.zestyio.com/rl_platform_keyart_2019.jpg"
+          alt="Fourth slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+
+export default UncontrolledExample;
